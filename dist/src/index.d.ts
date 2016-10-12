@@ -1,1 +1,2 @@
-export { MDSwaggerModule, MDSwaggerComponent } from './md-swagger.module';
+export { MDSwaggerModule } from './md-swagger.module';
+export { MDSwaggerComponent } from './md-swagger.component';

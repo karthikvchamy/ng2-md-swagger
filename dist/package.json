@@ -8,7 +8,7 @@
     "tslint": "tslint ./client/app/**/*.ts",
     "copy": "webpack --config config/webpack.copy.js",
     "kill": "kill -9 $(lsof -i tcp:8080)",
-    "build": "rimraf dist && NODE_ENV='production' webpack --config config/webpack.prod.js -p --progress --bail && npm run copy"
+    "build": "tsc && rimraf dist && NODE_ENV='production' webpack --config config/webpack.prod.js -p --progress --bail && npm run copy"
   },
   "keywords": [],
   "author": "",
