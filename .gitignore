@@ -6,6 +6,9 @@ link-checker-results.txt
 **/*npm-debug.log.*
 _test-output
 _temp
+*.d.ts
+*.js
+*.js.map
 
 !karma*.js
 !protractor*.js
